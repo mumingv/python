@@ -1,3 +1,4 @@
 syntax_basic.py             基本语法
+syntax_string.py            字符串相关语法
 diff_between_2_and_3.py     Python2和Python3之间的差异
 
