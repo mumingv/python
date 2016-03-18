@@ -1,5 +1,5 @@
 syntax              语法
-function            函数
+function            函数(文件以库名称开头)
 sumup               总结
 exercise            练习
 util                实用程序

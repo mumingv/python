@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 
+"""
+@func:   温度转换
+@author: Jie Yin
+@e-mail: mumingv@163.com
+@date:   2016-03-17
+""" 
+
 # TempConvert.py
 val = raw_input("请输入带温度表示符号的温度值(例如: 32C, 100F): ")
 if val[-1] in ['C','c']:
@@ -10,3 +17,4 @@ elif val[-1] in ['F','f']:
     print("转换后的温度为: %.2fC"%c)
 else:
     print("输入有误")
+
