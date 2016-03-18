@@ -104,7 +104,26 @@ print 'world'
 ## 测试字符串类型
 print type("Hello")  #输出：<type 'str'>
 
+## 获取子字符串
+print "获取子字符串"
+str = "abcdefg"
+print str[0:2]  #输出: "ab", 表示区间[0,2)内的子字符串
+print str[-1]  #输出: "g", 表示下标为-1的字符
+print str[0:-1]  #输出: "abcdef", 表示除最后一个字符外的子字符串
+## 可以使用表达式作为下标/索引值
+print str[1 + 2]  #输出: "d"
+x = 3
+print str[x + 1]  #输出："e"
 
+## 字符串连接
+## 使用 + 或 * 进行连接
+print "--> 字符串连接"
+print "Hello" + "World"  #输出：HelloWorld
+print 3 * "Hello"  #输出：HelloHelloHello
+
+## 字符串长度
+print "--> 字符串长度"
+print len("Hello")  #输出：5
 
 
 

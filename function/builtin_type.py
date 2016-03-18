@@ -17,4 +17,7 @@ print "--> 判断数字类型"
 print type(3)  #输出: <type 'int'>
 print type(3.14)  #输出: <type 'float'>
 print type(3 + 4j)  #输出: <type 'complex'>
+## 判断字符串类型
+print "--> 判断字符串类型"
+print type("Hello")  #输出：<type 'str'>
 
