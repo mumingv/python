@@ -90,6 +90,11 @@ print "交换后: x =", x, ", y =", y
 """
 循环语句
 """
+# for循环
+## 示例
+print "循环"
+for i in range(3):
+    print i
 
 """
 """
