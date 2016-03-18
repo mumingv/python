@@ -131,7 +131,11 @@ print str(123)  #输出：123
 print str(123.456)  #输出：123.456
 print str(123e+10)  #输出：1.23e+12
 
-
+## 遍历字符串中的字符
+print "--> 遍历字符串中的字符"
+str2 = "Hello"
+for ch in str2:
+    print ch
 
 
 # 元组类型
