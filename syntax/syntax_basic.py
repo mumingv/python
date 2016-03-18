@@ -20,6 +20,100 @@
 
 
 """
+类型
+"""
+# 数字类型
+
+## 整数类型
+### 整数类型没有取值范围的限制。
+print "--> 整数类型"
+print pow(2, 10)
+print pow(2, 1000)
+### 整数类型不同进制的表示方法
+### 2进制: 0b010, 0B010
+### 8进制: 0o123, 0O456
+### 16进制: 0x1a, 0X3c
+
+## 浮点数类型
+### 查看浮点数的精度
+### >>> import sys
+### >>> sys.float_info
+
+## 复数类型
+### z = a + bj, a和b都是浮点数类型，虚数部分用j或者J表示
+### 例子
+print "--> 复数类型"
+z = 1.23e-4 + 5.6e+89j
+print "real is:", z.real, " imag is:", z.imag
+
+## 允许整数、浮点数、复数这三种类型之间进行混合运算，结果为最宽类型
+
+## 可以使用int()、float()、complex()进行各种类型之间的强制转换
+### 例子
+print int(3.14)  #输出：3
+print float(3)  #输出：3.0
+print complex(3)  #输出：(3+0j)
+#print int(3 + 4j)  #提示错误："TypeError: can't convert complex to int"
+#print float(3 + 4j)  #提示错误："TypeError: can't convert complex to float"
+
+## 判断数字类型
+print "--> 判断数字类型"
+print type(3)  #输出: <type 'int'>
+print type(3.14)  #输出: <type 'float'>
+print type(3 + 4j)  #输出: <type 'complex'>
+
+## 数字类型的运算
+# +--------------------+--------------------------------------------+
+#   运算符和运算函数     操作含义
+# +--------------------+--------------------------------------------+
+#   x + y                和
+#   x - y                差
+#   x * y                积
+#   x / y                商
+#   x // y               不大于x与y之商的最大整数
+#   x % y                余数
+#   +x                   x
+#   -x                   x的负值
+#   x ** y               x的y次幂
+#   abs(x)               x的绝对值 
+#   divmod(x, y)         (x // y, x % y) 
+#   pow(x, y)            x的y次幂，和x ** y相同 
+# +--------------------+--------------------------------------------+
+print "--> 数字类型的运算"
+print 5 + 3
+print 5 - 3
+print 5 * 3
+print 5 / 3  #输出：1
+print 5 // 3  #输出：1
+print 5 % 3  #输出：2
+print +5  #输出：5
+print -5  #输出：-5
+print 5 ** 3  #输出：125
+print abs(-5)  #输出：5
+print divmod(5, 3)  #输出：(1, 2)
+print pow(5, 3)  #输出：125
+
+
+# 字符串类型
+
+## 使用单引号或者双引号均可以表示一个字符串
+print "--> 字符串类型"
+print "Hello"
+print 'world'
+
+## 测试字符串类型
+print type("Hello")  #输出：<type 'str'>
+
+
+
+
+
+# 元组类型
+# 列表类型
+# 文件类型
+# 字典类型
+
+"""
 变量
 """
 # 命名
