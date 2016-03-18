@@ -27,9 +27,10 @@ vlist.append("python")
 print vlist  #输出：[0, 1, 2, 3, 4, 'python']
 vlist.reverse()
 print vlist  #输出：['python', 4, 3, 2, 1, 0]
-
-
-
+print vlist.index(4)  #输出：1
+#print vlist.index(8)  #报错: "ValueError: 8 is not in list"
+print vlist.pop(1)  #输出：4
+print vlist  #输出：['python', 3, 2, 1, 0]
 
 
 
