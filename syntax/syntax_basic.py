@@ -79,6 +79,15 @@ print "交换后: x =", x, ", y =", y
 函数
 """
 
+# 函数库引用
+## 方式一, 示例:
+## >>> import turtle
+## >>> turtle.fd(100)
+## 方式二, 示例:
+## >>> from turtle import *
+## >>> from turtle import fd
+## >>> fd(100)
+
 """
 类
 """
