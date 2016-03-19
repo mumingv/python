@@ -17,10 +17,13 @@
 #   <string>.strip()            去除两边空格及指定字符
 #   <string>.split()            按指定字符分割字符串为数组/列表, 分割字符默认为空格
 #   <string>.isdigit()          判断是否是数字类型, 是返回True，否返回False 
-#   <string>.find()             搜索指定字符串
-#   <string>.replace()          字符串替换 
+#   <string>.find()             搜索指定字符串, 返回字符串的位置
+#   <string>.replace()          字符串替换, 返回替换后的字符串，原字符串不变 
 
 # 示例
 vlist = "Python is an excellent language".split()
 print vlist  #输出：['Python', 'is', 'an', 'excellent', 'language']
+str1 = "abcdefg"
+print str1.find("def")  #输出：3
+print str1.replace("c", "C")  #输出：abCdefg
 
