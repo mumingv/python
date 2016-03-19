@@ -17,7 +17,7 @@
 #   math.ceil(x)                对浮点数x向上取整, 返回值>=x
 #   math.floor(x)               对浮点数x向下取整, 返回值<=x
 #   math.pow(x, y)              计算x的y次方
-#   math.sqrt(x)                计算x的平方根
+#   math.sqrt(x)                计算x的平方根, 返回一个浮点数
 #   math.log(x)                 以e为底的对数
 #   math.log10(x)               以10为底的对数
 #   math.exp(x)                 计算e的x次幂 

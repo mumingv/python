@@ -85,6 +85,7 @@ print 5 - 3
 print 5 * 3
 print 5 / 3  #输出：1
 print 5 // 3  #输出：1
+print 5.0 / 3  #输出：1.66666666667
 print 5 % 3  #输出：2
 print +5  #输出：5
 print -5  #输出：-5

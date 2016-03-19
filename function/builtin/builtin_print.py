@@ -17,3 +17,8 @@ from __future__ import print_function
 #print "Hello world!" #如果print语句被禁用了，这里会提示语法错误: "SyntaxError: invalid syntax"
 print("Hello mumingv!"); #如果print语句被禁用了，只能使用print函数
 
+# 类C写法
+print("C type: %s" % 123)  #一个参数时，加不加括号都可以
+print("C type: %s" % (123))  #一个参数时，加不加括号都可以
+print("C type: %s %d" % (123, 456))  #注意多个参数时需要用括号括起来
+
