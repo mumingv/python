@@ -19,6 +19,8 @@ https://docs.python.org/2/library/
             random          伪随机数
             time            时间
             turtle          图形绘制
+15.通用操作系统服务
+            os              操作系统接口：https://docs.python.org/2/library/os.html
 20.互联网协议和支持
             urllib          通过URL访问资源          
             urllib2         增强型的urllib 
