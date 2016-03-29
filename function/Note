@@ -5,12 +5,27 @@
 string.py       字符串类型相关操作
 list.py         数组/列表/序列类型相关操作
 
+
+
+
+说明：函数的分类基于官方的标准库文档:
+https://docs.python.org/2/library/
+
 ====================================
-模块/库名称     作用
+大类        模块/库名称         作用
 ------------------------------------
-builtin         内建函数（不是module）
-math            数学计算
-random          伪随机数
-time            时间
-turtle          图形绘制
+            builtin         内建函数（不是module）
+            math            数学计算
+            random          伪随机数
+            time            时间
+            turtle          图形绘制
+20.互联网协议和支持
+            urllib          通过URL访问资源          
+            urllib2         增强型的urllib 
+            
+
+
+
+
+
 
