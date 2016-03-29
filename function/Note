@@ -14,7 +14,7 @@ https://docs.python.org/2/library/
 ====================================
 大类        模块/库名称         作用
 ------------------------------------
-            builtin         内建函数（不是module）
+            builtin         内建函数（不是module）：https://docs.python.org/2/library/functions.html
             math            数学计算
             random          伪随机数
             time            时间
@@ -22,10 +22,6 @@ https://docs.python.org/2/library/
 20.互联网协议和支持
             urllib          通过URL访问资源          
             urllib2         增强型的urllib 
-            
-
-
-
-
-
-
+28.Python运行时服务
+            sys             系统函数：https://docs.python.org/2/library/sys.html
+ 
