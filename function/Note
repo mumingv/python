@@ -19,6 +19,8 @@ https://docs.python.org/2/library/
             random          伪随机数
             time            时间
             turtle          图形绘制
+8.数据类型
+            array           数组: https://docs.python.org/2/library/array.html
 15.通用操作系统服务
             os              操作系统接口：https://docs.python.org/2/library/os.html
 20.互联网协议和支持
@@ -26,4 +28,9 @@ https://docs.python.org/2/library/
             urllib2         增强型的urllib 
 28.Python运行时服务
             sys             系统函数：https://docs.python.org/2/library/sys.html
- 
+------------------------------------
+补充模块/库
+            numpy           数组计算
+            scipy           稀疏矩阵运算
+
+
