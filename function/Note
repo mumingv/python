@@ -14,6 +14,7 @@ https://docs.python.org/2/library/
 ====================================
 大类        模块/库名称         作用
 ------------------------------------
+2.内建函数(Built-in Functions)
             builtin         内建函数（不是module）：https://docs.python.org/2/library/functions.html
             math            数学计算
             random          伪随机数
