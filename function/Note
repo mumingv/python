@@ -15,6 +15,7 @@ https://docs.python.org/2/tutorial/index.html
             turtle          图形绘制
 5.内建类型
             list            数组/列表/序列类型相关操作
+            dict            字典: https://docs.python.org/2/library/stdtypes.html#mapping-types-dict
 7.字符串(String Services)
             string          通用字符串操作
 8.数据类型
@@ -30,5 +31,4 @@ https://docs.python.org/2/tutorial/index.html
 补充模块/库
             numpy           数组计算
             scipy           稀疏矩阵运算
-
 
