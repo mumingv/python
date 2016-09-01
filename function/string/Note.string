@@ -20,10 +20,3 @@
 #   <string>.find()             搜索指定字符串, 返回字符串的位置
 #   <string>.replace()          字符串替换, 返回替换后的字符串，原字符串不变 
 
-# 示例
-vlist = "Python is an excellent language".split()
-print vlist  #输出：['Python', 'is', 'an', 'excellent', 'language']
-str1 = "abcdefg"
-print str1.find("def")  #输出：3
-print str1.replace("c", "C")  #输出：abCdefg
-
