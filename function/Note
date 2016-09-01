@@ -1,16 +1,8 @@
 
-参考：https://docs.python.org/2/library/index.html
-
-====================================
-类型文件名称    说明
-------------------------------------
-list.py         数组/列表/序列类型相关操作
-
-
-
-
 说明：函数的分类基于官方的标准库文档:
-https://docs.python.org/2/library/
+https://docs.python.org/2/library/index.html
+参考：
+https://docs.python.org/2/tutorial/index.html
 
 ====================================
 大类        模块/库名称         作用
@@ -21,6 +13,8 @@ https://docs.python.org/2/library/
             random          伪随机数
             time            时间
             turtle          图形绘制
+5.内建类型
+            list            数组/列表/序列类型相关操作
 7.字符串(String Services)
             string          通用字符串操作
 8.数据类型
