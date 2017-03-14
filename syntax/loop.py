@@ -21,3 +21,13 @@ for number in numbers:
 
 for number in range(0, 10):
     print number
+
+"""
+while循环
+"""
+print '-----while-----'
+x = 1
+while x < 10:
+    print x
+    x += 1
+
