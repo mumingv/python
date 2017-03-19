@@ -22,6 +22,12 @@ for number in numbers:
 for number in range(0, 10):
     print number
 
+# 遍历字典
+dict = {'x': 1, 'y': 2, 'z': 3}
+for key in dict:
+    print key, 'corresponds to', dict[key]
+
+
 """
 while循环
 """
