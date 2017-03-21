@@ -20,3 +20,16 @@ class Person:
 foo = Person()
 foo.setName('Jay')
 foo.sayHello()
+
+
+"""
+类的构造函数
+"""
+class ListNode(object):
+    def __init__(self, x): 
+        self.val = x 
+        self.next = None
+
+node = ListNode(0)
+print node.val
+print node.next
