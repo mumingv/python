@@ -2,7 +2,7 @@
 '''
 /***********************************************************
       FileName: listing14-2.py
-          Desc: 客户端
+          Desc: socket客户端
         Author: Jie Yin
          Email: mumingv@163.com
       HomePage: https://github.com/mumingv

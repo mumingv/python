@@ -2,7 +2,7 @@
 '''
 /***********************************************************
       FileName: listing14-1.py
-          Desc: 服务器
+          Desc: socket服务器
         Author: Jie Yin
          Email: mumingv@163.com
       HomePage: https://github.com/mumingv
