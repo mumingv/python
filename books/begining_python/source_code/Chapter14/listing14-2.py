@@ -24,7 +24,6 @@ s = socket.socket()
 
 # 获取主机名称
 host = socket.gethostname()
-print host
 port = 1234
 
 # 连接到服务器的套接字
