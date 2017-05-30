@@ -50,6 +50,7 @@
 '''
 
 from SocketServer import TCPServer, StreamRequestHandler
+import time
 
 # 自定义一个请求处理类，其基于StreamRequestHandler类派生而来
 class Handler(StreamRequestHandler):
@@ -59,9 +60,12 @@ class Handler(StreamRequestHandler):
         # self.request等同于socket.accept返回的新建的socket(用于连接客户端)
         addr = self.request.getpeername()
         print 'Got connection from', addr
+        # 延迟5秒
+        time.sleep(5)
         self.wfile.write('Thank you for connecting')
+        print 'Send data to', addr, 'ok'
 
-# 实例化一个TCPServer：第一个参数为server_address, (IP, PORT)中IP为空时表示本机；第二个参数为用户自定义的请求处理类，当每处理一个客户端请求时都会自动创建一个请求处理类的实例
+# 实例化一个TCPServer：第一个参数为server_address, (IP, PORT)中IP为空时表示本机；第二个参数为用户自定义的请求处理类，当每处理一个客户端请求时都会自动创建一个请求处理类的实例。但由于TCPServer是同步(串行处理请求)的，所以同一时刻只会有一个Handler实例在跑。
 server = TCPServer(('', 1234), Handler)
 
 # 启动服务器并循环处理客户请求
