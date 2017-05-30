@@ -62,6 +62,7 @@ while inputs:
         print "Time out!"
         break;
 
+    # 先检查有没有发送的数据
     for s in writable:
         try:
             print 'try to send data' 
@@ -72,7 +73,8 @@ while inputs:
         else:
             print " sending " , next_msg , " to ", s.getpeername()
             s.send(next_msg)
-     
+
+    # 再检查有没有接收的数据
     for s in readable:
         if s is server:  # 检测到一个客户端连接
             # accept创建一个与客户端连接的套接字，用于接收和发送数据
@@ -86,15 +88,15 @@ while inputs:
         else: # 检测到一个客户端发送了数据
             data = s.recv(1024)
             #time.sleep(3)
-            if data:
+            if data:  # 客户端发送了数据
                 print " received " , data , "from ", s.getpeername()
                 # 将接收到的消息存放到消息队列
                 message_queues[s].put(data)
                 # 将套接字存入select的轮询列表outputs中
                 if s not in outputs:
                     outputs.append(s)
-            else:
-                #Interpret empty result as closed connection
+            else:  # 客户端关闭了TCP连接
+                # 没有
                 print "  closing", client_address
                 if s in outputs:
                     outputs.remove(s)
