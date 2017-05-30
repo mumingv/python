@@ -1,13 +1,13 @@
 # -*- coding: UTF-8 -*-
 '''
 /***********************************************************
-      FileName: listing14-4.py
-          Desc: 源生ForkingTCPServer
+      FileName: listing14-4.ForkingTCPServer2.py
+          Desc: 原生ForkingTCPServer
         Author: Jie Yin
          Email: mumingv@163.com
       HomePage: https://github.com/mumingv
        Version: 0.0.1
-    LastChange: 2017-05-30 12:27:03
+    LastChange: 2017-05-30 12:55:07
        History:
  ***********************************************************/
 '''
