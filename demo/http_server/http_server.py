@@ -4,7 +4,7 @@
 import SimpleHTTPServer
 import SocketServer
 
-# 端口号小于7000，服务器无法启动成功
+# port number must be more than 7000
 PORT = 8002
 
 Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
