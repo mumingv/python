@@ -24,7 +24,7 @@ INPUT_ENCODEING = 'utf8'
 OUTPUT_ENCODEING = 'utf8'
 
 '''
-python dumi_debug.py input_file_utf8
+python debug.py input_file_utf8
 '''
 
 input_file = sys.argv[1]
@@ -45,7 +45,6 @@ data['service'] = ''
 data['hint_id'] = ''
 data['username'] = 'juqiang'
 
-#url = 'http://dumidebug.baidu.com/result/info'
 url = 'http://123.56.21.232:8254/myprojects/demo/get_tts_news/index.php'
 
 for raw_line in fileinput.input(sys.argv[1]):
