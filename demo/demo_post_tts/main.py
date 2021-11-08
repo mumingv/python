@@ -34,16 +34,16 @@ error_file = open('error_%s' % input_file, 'w')
 data = {}
 data['us_ip_port'] = '10.206.225.34:8211'
 
-data['client'] = 'xiaodu'
+data['client'] = 'test'
 data['os'] = 'android'
 data['version'] = '8.1.0'
-data['environment'] = 'define_us'
+data['environment'] = 'define'
 data['longtitude'] = '116.280523'
 data['latitude'] = '40.051242'
 data['query_type'] = 1
 data['service'] = ''
 data['hint_id'] = ''
-data['username'] = 'juqiang'
+data['username'] = 'xxx'
 
 url = 'http://123.56.21.232:8254/myprojects/demo/get_tts_news/index.php'
 
