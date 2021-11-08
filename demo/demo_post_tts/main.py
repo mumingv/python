@@ -33,7 +33,6 @@ error_file = open('error_%s' % input_file, 'w')
 
 data = {}
 data['us_ip_port'] = '10.206.225.34:8211'
-#data['us_ip_port'] = 'nj03-wise-2www266.nj03.baidu.com:8212'
 
 data['client'] = 'xiaodu'
 data['os'] = 'android'
